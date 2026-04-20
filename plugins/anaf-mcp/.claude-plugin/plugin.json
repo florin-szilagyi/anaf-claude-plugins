@@ -1,24 +1,11 @@
 {
   "name": "anaf-mcp",
   "version": "0.1.0",
-  "description": "ANAF e-Factura MCP server — create, validate, upload and manage Romanian e-invoices directly from Claude Code",
+  "description": "Skills for using the ANAF e-Factura MCP server — setup, invoice creation, and message listing",
   "author": {
     "name": "Florin Szilagyi",
     "url": "https://github.com/florin-szilagyi"
   },
   "homepage": "https://github.com/florin-szilagyi/ts-anaf/tree/main/mcp",
-  "repository": "https://github.com/florin-szilagyi/ts-anaf",
-  "keywords": ["anaf", "efactura", "romania", "invoicing", "mcp"],
-  "mcpServers": {
-    "anaf": {
-      "command": "npx",
-      "args": ["-y", "@florinszilagyi/anaf-mcp@latest"],
-      "env": {
-        "ANAF_CLIENT_ID": "",
-        "ANAF_CLIENT_SECRET": "",
-        "ANAF_REDIRECT_URI": "https://localhost:9002/callback",
-        "ANAF_ENV": "prod"
-      }
-    }
-  }
+  "keywords": ["anaf", "efactura", "romania", "invoicing"]
 }
